@@ -1,16 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    
 
 }
+
 body{
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto,Helvetica Neue",Helvetica,Arial,sans-serif 13px;
     background: #e3e8ee;
+    
 }
-
 .baner1{
     padding: 4px 21px;
 }
+
 .cont{
     background: white;
     height: auto;
@@ -19,38 +22,73 @@ body{
     padding: 20px;
     
 }
+#hrline{
+    background: #959797;
+}
+.fa-pull-right{
+    margin-right: 25px;
+    border-radius: 2px;
+    background-color:#e6e9eb;
 
-.box{
-    background: #f9fafc;
-    margin: auto;
-    padding: 15px;
-    height: 90px;
-    border-radius: 5px;
-    border-color: gray;
-    box-shadow: 1px 1px 7px #b9b9b9ab;
-    margin-top: 2px;
-    margin-top: 25px;
+
+}
+.btn-icon{
+    padding: 1px 6px;
+
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px grey;
+
+}
+.stats{
+    color:  #03a9f4;
+    float: right;
+    margin-top: 40px;
+    margin-right: -33px;
     
-
 }
-.rw1{
-    margin: auto;
 
-}
-.time{
-    color: #443e3e;
-    font-size: 19px;
+.userdetails{
    
-}
-.status{
+    width: 100%;
 
-    font-size: 13px;
-  
 }
-.status1{
+.userdetails img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+
+}
+.fa{
     font-size: 13px;
 
-   
-  
 }
+a:link .mail{
+    font-size: small;
+    color: #03a9f4;
+    padding: 4px;
+    text-transform: lowercase;
+
+}
+a:link{
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: small;
+    color: #03a9f4;
+
+}
+
+.chip-circle {
+    background-color: #4b5158;
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 12px;
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    }
+
+
+
 
